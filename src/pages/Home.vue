@@ -70,23 +70,21 @@
 </template>
 <script>
 import PortfolioItem from '../components/PortfolioItem.vue';
+import babylonLogo from "@/static/images/portfolio/babylon.webp";
+import saharaLogo from "@/static/images/portfolio/sahara_ai.webp";
+import bounebitLogo from "@/static/images/portfolio/bounce_bit.webp";
+import nubitLogo from "@/static/images/portfolio/nubit.webp";
+import polyhedraLogo from "@/static/images/portfolio/polyhedra.webp";
+import oraLogo from "@/static/images/portfolio/ora.webp";
+import lorenzoLogo from "@/static/images/portfolio/lorenzo.webp";
 import ethStorageLogo from "@/static/images/portfolio/ethstorage-logo.webp";
 import solvLogo from "@/static/images/portfolio/solv-logo.webp";
 import goPlusLogo from "@/static/images/portfolio/goplus-logo.webp";
 import salusLogo from "@/static/images/portfolio/salus-logo.webp";
-import hyperOracleLogo from "@/static/images/portfolio/hyperoracle-logo.webp";
 import spaceIdLogo from "@/static/images/portfolio/spaceid-logo.webp";
 import lifeformLogo from "@/static/images/portfolio/lifeform-logo.webp";
 import ultiverseLogo from "@/static/images/portfolio/multiverse-logo.webp";
-import talentreLogo from "@/static/images/portfolio/talentre-logo.webp";
 import partisiaLogo from "@/static/images/portfolio/partisia-logo.webp";
-import choiceLogo from "@/static/images/portfolio/choice-logo.webp";
-import impossibleFinanceLogo from "@/static/images/portfolio/impossible-finance-logo.webp";
-import harvestLogo from "@/static/images/portfolio/harvest-logo.webp";
-import relayzLogo from "@/static/images/portfolio/relayz-logo.webp";
-import babylonLogo from "@/static/images/portfolio/babylon-logo.webp";
-import puffverseLogo from "@/static/images/portfolio/puff-logo.webp";
-import starssharkLogo from "@/static/images/portfolio/starsharks-logo.webp";
 import navilogo from "@/static/images/portfolio/navi-logo.webp";
 export default {
   components: {
@@ -95,11 +93,24 @@ export default {
   data() {
     return {
       portfolioItems: [
+        
         {
-          logoSrc: ethStorageLogo,
-          title: "EthStorage",
-          category: "Storage",
-          link: "https://ethstorage.io/",
+          logoSrc: babylonLogo,
+          title: "Babylon",
+          category: "Bitcoin Staking",
+          link: "https://babylonchain.io/",
+        },
+        {
+          logoSrc: saharaLogo,
+          title: "Sahara AI",
+          category: "AI",
+          link: "https://www.saharalabs.ai/",
+        },
+        {
+          logoSrc: bounebitLogo,
+          title: "BounceBit",
+          category: "Bitcoin Restaking",
+          link: "https://bouncebit.io/",
         },
         {
           logoSrc: solvLogo,
@@ -108,22 +119,10 @@ export default {
           link: "https://solv.finance/",
         },
         {
-          logoSrc: goPlusLogo,
-          title: "Go Plus",
-          category: "Security",
-          link: "https://www.gopluslabs.io/",
-        },
-        {
-          logoSrc: salusLogo,
-          title: "Salus",
-          category: "Security",
-          link: "https://salusec.io/",
-        },
-        {
-          logoSrc: hyperOracleLogo,
-          title: "Hyper Oracle",
-          category: "Zkoracle",
-          link: "https://www.hyperoracle.io/",
+          logoSrc: nubitLogo,
+          title: "Nubit",
+          category: "Bitcoin DA",
+          link: "https://www.nubit.org/ ",
         },
         {
           logoSrc: spaceIdLogo,
@@ -132,10 +131,16 @@ export default {
           link: "https://space.id/",
         },
         {
-          logoSrc: lifeformLogo,
-          title: "Lifeform",
-          category: "Visual DID",
-          link: "https://lifeform.cc/",
+          logoSrc: ethStorageLogo,
+          title: "EthStorage",
+          category: "Storage",
+          link: "https://ethstorage.io/",
+        },
+        {
+          logoSrc: salusLogo,
+          title: "Salus",
+          category: "Security",
+          link: "https://salusec.io/",
         },
         {
           logoSrc: ultiverseLogo,
@@ -144,58 +149,34 @@ export default {
           link: "https://www.ultiverse.io/",
         },
         {
-          logoSrc: talentreLogo,
-          title: "Talentre",
-          category: "Talent",
-          link: "https://alpha.talentre.com/home",
+          logoSrc: polyhedraLogo,
+          title: "Polyhedra",
+          category: "ZK",
+          link: "https://www.polyhedra.network/",
         },
         {
-          logoSrc: partisiaLogo,
-          title: "Partisia Blockchain",
-          category: "Layer 1",
-          link: "https://partisiablockchain.com/",
+          logoSrc: lifeformLogo,
+          title: "Lifeform",
+          category: "Visual DID",
+          link: "https://lifeform.cc/",
         },
         {
-          logoSrc: choiceLogo,
-          title: "Choise",
-          category: "CeFi & DeFi",
-          link: "https://choise.com/",
+          logoSrc: oraLogo,
+          title: "Ora",
+          category: "AI",
+          link: "https://www.ora.io/",
         },
         {
-          logoSrc: impossibleFinanceLogo,
-          title: "Impossible Finance",
-          category: "Launchpad",
-          link: "https://impossible.finance/project",
+          logoSrc: goPlusLogo,
+          title: "Go Plus",
+          category: "Security",
+          link: "https://www.gopluslabs.io/",
         },
         {
-          logoSrc: harvestLogo,
-          title: "Harvest",
-          category: "Game",
-          link: "https://theharvestgame.com/",
-        },
-        {
-          logoSrc: relayzLogo,
-          title: "Relayz",
-          category: "Communications",
-          link: "https://relayz.io/",
-        },
-        {
-          logoSrc: babylonLogo,
-          title: "Babylon",
-          category: "Staking",
-          link: "https://babylonchain.io/",
-        },
-        {
-          logoSrc: puffverseLogo,
-          title: "Puffverse",
-          category: "Metaverse",
-          link: "https://puffverse.pro/",
-        },
-        {
-          logoSrc: starssharkLogo,
-          title: "Star Sharks",
-          category: "Game",
-          link: "https://starsharks.com/",
+          logoSrc: lorenzoLogo,
+          title: "Lorenzo",
+          category: "Bitcoin Liquidity Layer",
+          link: "https://lorenzo-protocol.webflow.io/ ",
         },
         {
           logoSrc: navilogo,
@@ -203,8 +184,14 @@ export default {
           category: "DeFi",
           link: "https://naviprotocol.io/",
         },
+        {
+          logoSrc: partisiaLogo,
+          title: "Partisia Blockchain",
+          category: "Layer 1",
+          link: "https://partisiablockchain.com/",
+        },
         
-       
+
       ],
       itemsToShow: 9,
       showAllItems: false,
