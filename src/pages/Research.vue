@@ -11,6 +11,18 @@
                     <div class="research-list py-1">
                         <div class="research-item">
                             <div class="item-content">
+                                <a href="https://medium.com/@support_54785/modular-blockchain-the-final-piece-of-the-web3-puzzle-756358554df5" target="_blank">
+                                    <div class="heading">
+                                        <h3>Modular Blockchain: the final piece of the Web3 puzzle</h3>
+                                    </div>
+                                    <div class="description">
+                                        <p>Modular blockchains represent an innovative blockchain design paradigm aimed at enhancing system efficiency and scalability through specialization and division of labor. </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="research-item">
+                            <div class="item-content">
                                 <a href="https://ethresear.ch/t/completely-recursive-snark-circuit-the-savior-of-play-to-earn/18439" target="_blank">
                                     <div class="heading">
                                         <h3>Completely Recursive SNARK Circuit - The Savior of “Play to Earn”</h3>
